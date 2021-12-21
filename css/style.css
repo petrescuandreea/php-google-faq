@@ -46,6 +46,10 @@ header {
     padding-bottom: 10px;
 }
 
+.header-nav li a:hover {
+    color: #3367d6;
+}
+
 .header-nav li a.active {
     color: #3367d6;
     border-bottom: 3px solid #3367d6;
