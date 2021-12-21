@@ -5,3 +5,27 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.faq-container {
+    padding: 40px 0;
+}
+
+h2 {
+    color: #3c4043;
+    margin-bottom: 20px;
+}
+
+p {
+    color: rgba(0,0,0,0.87);
+    margin: 10px 0;
+}
+
+.blue {
+    color: #3367d6;
+    cursor: pointer;
+    text-decoration: none;
+}
