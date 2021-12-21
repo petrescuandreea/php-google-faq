@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>PHP Google faq</title>
 
@@ -114,6 +115,37 @@
             ?>
         </div>
     </main>
+
+    <footer>
+        <div class="container">
+            <div id="footer-list">
+                <ul>
+                    <li>
+                        <a href="#">Google</a>
+                    </li>
+                    <li>
+                        <a href="#">Tutto su Google</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="#">Termini</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="footer-select">
+                <i class="fas fa-globe"></i>
+                <select>
+                    <option value="italiano" selected> Italiano </option>
+                    <option value="inglese"> Inglese </option>
+                    <option value="francese"> Francese </option>
+                    <option value="spagnolo"> Spagnolo </option>
+                </select>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
