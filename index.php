@@ -64,7 +64,20 @@
     ?>
 </head>
 <body>
-    
+    <div class="container">
+        <?php
+            foreach ($faqs as $faq) {
+                echo "<div class='faq-container'>";
+                echo "<h2>" . $faq['question'] . "</h2>";
+
+                foreach ($faq['answers'] as $answer) {
+                    echo "<p>" . $answer . "</p>";
+                }
+
+                echo "</div>";
+            }
+        ?>
+    </div>
 
 </body>
 </html>
